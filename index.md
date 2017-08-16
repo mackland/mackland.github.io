@@ -1,7 +1,7 @@
 ## Marcus Ackland
 
 ```markdown
-class Me extends Person {
+_class_ Me extends Person {
 
     constructor() {
         super();
