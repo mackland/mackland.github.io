@@ -1,36 +1,32 @@
-## Welcome to my webpage
-
-I am in my final year studying Aerospace Engineering. You can use the [editor on GitHub](https://github.com/mackland/mackland.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Previous Experience
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Marcus Ackland
 
 ```markdown
-Syntax highlighted code block
+class Me extends Person {
 
-# Header 1
-## Header 2
-### Header 3
+    constructor() {
+        super();
+        
+        this.name = 'Marcus Ackland';
+        this.age = 25;
+        this.nationality = 'Swedish';
+        this.occupation = 'MSc Student in Aerospace Engineering';
+        this.graduationYear = calcGraduationYear(this.name);
+        this.favoriteLanguage = getFavLanguage();
+    
+        getFavLanguage() {
+            return 'Java, obviously!';
+        }
 
-- Bulleted
-- List
+        calcGraduationYear(name) {
+            if( name.split(' ')[0] == 'Marcus') {
+                return 2018;
+            }
+        }
+    }   
+}
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Education
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mackland/mackland.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Projects
 
