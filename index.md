@@ -11,14 +11,13 @@ class Me extends Person {
         this.nationality = "Swedish";
         this.occupation = "MSc Student in Aerospace Engineering";
         this.graduationYear = 2018;
-        this.favoriteLanguage = getFavLanguage();
+        this.favoriteLanguage = getLanguage();
     
-        public String getFavLanguage() {
+        public String getLanguage() {
             return "Java, obviously!";
         }
     }   
 }
-
 ```
 
 ## Projects
