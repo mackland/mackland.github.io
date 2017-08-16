@@ -1,7 +1,7 @@
 ## Marcus Ackland
 
 ```markdown
-_class_ Me extends Person {
+class Me extends Person {
 
     constructor() {
         super();
@@ -30,7 +30,10 @@ _class_ Me extends Person {
 
 ```markdown
 Syntax highlighted code block
+class Me extends Person {
 
+    constructor() {
+        super();
 # Header 1
 ## Header 2
 ### Header 3
