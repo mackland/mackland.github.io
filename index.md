@@ -9,7 +9,7 @@ _class_ Me extends Person {
         *this*.name = 'Marcus Ackland';
         *this*.age = 25;
         *this*.nationality = 'Swedish';
-        this.occupation = 'MSc Student in Aerospace Engineering';
+        'this.occupation' = 'MSc Student in Aerospace Engineering';
         this.graduationYear = calcGraduationYear(this.name);
         this.favoriteLanguage = getFavLanguage();
     
