@@ -10,21 +10,14 @@ class Me extends Person {
         this.age = 25;
         this.nationality = "Swedish";
         this.occupation = "MSc Student in Aerospace Engineering";
-        this.graduationYear = calcGraduationYear(this.name);
+        this.graduationYear = 2018;
         this.favoriteLanguage = getFavLanguage();
     
-        getFavLanguage() {
+        public String getFavLanguage() {
             return "Java, obviously!";
-        }
-
-        calcGraduationYear(name) {
-            if( name.split(" ")[0] == "Marcus") {
-                return 2018;
-            }
         }
     }   
 }
-
 
 ```
 
