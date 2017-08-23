@@ -22,4 +22,4 @@ class Me extends Person {
 
 ## Projects
 
-Coming soon..
+Coming soon...
